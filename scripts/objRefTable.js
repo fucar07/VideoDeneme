@@ -25,6 +25,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.CompareBoolVar,
 		C3.Plugins.Audio.Cnds.IsTagPlaying,
 		C3.Plugins.System.Cnds.IsGroupActive,
+		C3.Plugins.video.Acts.SetSource2,
+		C3.Plugins.video.Acts.Play,
 		C3.Plugins.Mouse.Cnds.IsOverObject,
 		C3.Plugins.Mouse.Acts.SetCursor,
 		C3.Plugins.Sprite.Acts.SetAnimFrame,
