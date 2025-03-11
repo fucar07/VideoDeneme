@@ -12,6 +12,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.AJAX,
 		C3.Plugins.Arr,
 		C3.Plugins.video,
+		C3.Plugins.Text,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Plugins.Sprite.Cnds.IsVisible,
 		C3.Plugins.Sprite.Cnds.CompareOpacity,
@@ -69,6 +70,7 @@ self.C3_JsPropNameTable = [
 	{btn_ses: 0},
 	{btn_tamekran: 0},
 	{btn_Bilgi: 0},
+	{Text: 0},
 	{ButonAilesi: 0},
 	{AnaSayfaGorseller: 0},
 	{musicDurum: 0}
@@ -99,6 +101,7 @@ self.InstanceType = {
 	btn_ses: class extends self.ISpriteInstance {},
 	btn_tamekran: class extends self.ISpriteInstance {},
 	btn_Bilgi: class extends self.ISpriteInstance {},
+	Text: class extends self.ITextInstance {},
 	ButonAilesi: class extends self.ISpriteInstance {},
 	AnaSayfaGorseller: class extends self.ISpriteInstance {}
 }
